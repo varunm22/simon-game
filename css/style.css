@@ -1,0 +1,118 @@
+body {
+  
+}
+#game {
+  background-color: #333;
+  width: 400px;
+  height: 400px;
+  margin: 40px auto;
+  border-style: solid;
+  border-radius: 220px;
+  border-width: 20px;
+  border-color: #333;
+  position: relative;
+}
+.button {
+  width: 190px;
+  height: 190px;
+  border-style: solid;
+  border-color: #333;
+}
+#green {
+  background-color: #2a2;
+  border-radius: 200px 0px 0px 0px;
+  float: left;
+  border-width: 0px 10px 10px 0px;
+}
+#red {
+  background-color: #a22;
+  border-radius: 0px 200px 0px 0px;
+  float: right;
+  border-width: 0px 0px 10px 10px;
+}
+#blue {
+  background-color: #22A;
+  border-radius: 0px 0px 0px 200px;
+  float: left;
+  border-width: 10px 10px 0px 0px;
+}
+#yellow {
+  background-color: #cb2;
+  border-radius: 0px 0px 200px 0px;
+  float: right;
+  border-width: 10px 0px 0px 10px;
+}
+#console {
+  background-color: #fff;
+  position: absolute;
+  z-level: 2;
+  top: 85px;
+  left: 85px;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #333;
+  border-radius: 120px;
+  text-align: center;
+}
+#title {
+  font-size: 50px;
+  font-family: "Passion one";
+  margin-top: 30px;
+}
+#controls {
+  margin: -50px 0px 0px 20px;
+}
+#controls, td {
+  padding-right: 20px;
+}
+#counter {
+  background-color: #400;
+  color: #F55;
+  font-size: 25px;
+  font-family: "Inconsolata";
+  width: 45px;
+  height: 26px;
+  border-radius: 5px;
+}
+#start {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #333;
+  border-radius: 20px;
+}
+#start:hover {
+  background-color: #D00;
+}
+#strict {
+  background-color: #68F;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #333;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+#strict:hover {
+  background-color: #57D;
+}
+#light {
+  height: 8px;
+  width: 8px;
+  background-color: #400;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #400;
+  border-radius: 20px;
+  margin: 0px auto 3px auto;
+}
+#labels {
+  margin-top: -10px;
+  word-spacing: 0px;
+  font-family: "Open Sans";
+}
